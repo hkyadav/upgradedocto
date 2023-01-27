@@ -1,6 +1,6 @@
 import { tw } from 'twind';
 // import Preferences from '@/constants/svg/preferences.svg';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Play from '@/constants/svg/play.svg';
 
 const PlayButton = () => (
@@ -26,7 +26,8 @@ const VideoSection = () => (
       <div className={tw(`flex flex-col max-w-4xl mx-auto pt-28`)}>
         <div className={tw(`w-full`)}>
           <div className={tw(`relative shadow-2xl mx-6 lg:mx-0`)}>
-            <Image src="/images/a.jpg" alt="cruise ship" width={1000} height={600} />
+            {/* <Image src="/images/a.jpg" alt="cruise ship" width={1000} height={600} /> */}
+            <img src="/images/a.jpg" alt="cruise ship" width={1000} height={600} />
             <PlayButton />
           </div>
         </div>
