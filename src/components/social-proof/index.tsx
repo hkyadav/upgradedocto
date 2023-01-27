@@ -6,13 +6,13 @@ const socialProofs = [
   {
     name: `Sahil Jain`,
     company: `Mumbai`,
-    image: `/images/social-1.webp`,
+    image: `./images/social-1.webp`,
     text: `Recently went on a voyage with Cordelia from Chennai to Vishakapatnam with a family of forty. Overall, the experience was awesome and the hospitality.`,
   },
   {
     name: `Rakesh Mittal`,
     company: `Goa`,
-    image: `/images/social-2.webp`,
+    image: `./images/social-2.webp`,
     text: `Amazing! Can't even justify the experience aboard this city on the sea! You will find everything that you could possibly need. Good music plays round the clock.`,
   },
 ];

@@ -46,37 +46,37 @@ const ParticleBg = () => (
 const articles = [
   {
     title: `Experience stunning beaches and a exotic lifestyles.`,
-    image: `/images/beach.webp`,
+    image: `./images/beach.webp`,
     alt: `Proident pariatur est.`,
     destination: `mumbai-goa-mumbai`,
   },
   {
     title: `Seize the chance to sail through the stunning Arabian Sea’s glistening seas.`,
-    image: `/images/maldives.webp`,
+    image: `./images/maldives.webp`,
     alt: `Proident pariatur est.`,
     destination: `goa-mumbai-goa`,
   },
   {
     title: `Enjoy a voyage like never before with a panoramic view of the azure ocean.`,
-    image: `/images/mumbai.webp`,
+    image: `./images/mumbai.webp`,
     alt: `Proident pariatur est.`,
     destination: `mumbai-kochi`,
   },
   {
     title: `Get a sensation of unadulterated ecstasy.`,
-    image: `/images/night.webp`,
+    image: `./images/night.webp`,
     alt: `Proident pariatur est.`,
     destination: `mumbai-kochi-lakshadweep-mumbai`,
   },
   {
     title: `We've got all the modern conveniences you need for a wonderfully unforgettable visit.`,
-    image: `/images/beach1.webp`,
+    image: `./images/beach1.webp`,
     alt: `Proident pariatur est.`,
     destination: `mumbai-lakshadweep`,
   },
   {
     title: `Premium cruise liner that greets you to have an experience truly made out of bliss.`,
-    image: `/images/cruise1.webp`,
+    image: `./images/cruise1.webp`,
     alt: `Proident pariatur est.`,
     destination: `CHENNAI-PUDUCHERRY`,
   },
