@@ -1,3 +1,15 @@
 @import "@fontsource/inter/400.css";
 @import "@fontsource/inter/500.css";
 @import "@fontsource/inter/700.css";
+
+.bg-brand-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(119 0 113/var(--tw-bg-opacity));
+}
+
+.text-brand-primary {
+  --tw-bg-opacity: 1;
+  color: rgb(119 0 113/var(--tw-bg-opacity));
+}
+
+

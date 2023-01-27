@@ -1,9 +1,13 @@
 import { tw } from 'twind';
-import Preferences from '@/constants/svg/preferences.svg';
+// import Preferences from '@/constants/svg/preferences.svg';
+import Image from 'next/image';
 import Play from '@/constants/svg/play.svg';
 
 const PlayButton = () => (
   <button
+    onClick={() => {
+      window.location.href = `https://youtu.be/3C9AxMkhnOY`;
+    }}
     type="button"
     className={tw(
       `w-64 lg:w-auto absolute top-full left-1/2 flex items-center transform
@@ -12,7 +16,7 @@ const PlayButton = () => (
     aria-label="play video"
   >
     <Play className={tw(`w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0`)} />
-    <span className={tw(`ml-3`)}>Watch the video (5 min)</span>
+    <span className={tw(`ml-3 text-center`)}>Watch video (12 min)</span>
   </button>
 );
 
@@ -22,7 +26,7 @@ const VideoSection = () => (
       <div className={tw(`flex flex-col max-w-4xl mx-auto pt-28`)}>
         <div className={tw(`w-full`)}>
           <div className={tw(`relative shadow-2xl mx-6 lg:mx-0`)}>
-            <Preferences width="100%" height="100%" />
+            <Image src="/images/a.jpg" alt="cruise ship" width={1000} height={600} />
             <PlayButton />
           </div>
         </div>

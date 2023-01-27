@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <Page>
       <NextSeo
-        title="STARTD - Template"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
+        title="Luxury Cruise"
+        description="A cruise provider which provides everything you need to build amazing sea experience!"
       />
       <Header />
       <main>

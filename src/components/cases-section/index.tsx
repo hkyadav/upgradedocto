@@ -45,29 +45,40 @@ const ParticleBg = () => (
 
 const articles = [
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
-    image: `/images/case-1.webp`,
+    title: `Experience stunning beaches and a exotic lifestyles.`,
+    image: `/images/beach.webp`,
     alt: `Proident pariatur est.`,
+    destination: `mumbai-goa-mumbai`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
-    image: `/images/case-2.webp`,
+    title: `Seize the chance to sail through the stunning Arabian Sea’s glistening seas.`,
+    image: `/images/maldives.webp`,
     alt: `Proident pariatur est.`,
+    destination: `goa-mumbai-goa`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
+    title: `Enjoy a voyage like never before with a panoramic view of the azure ocean.`,
+    image: `/images/mumbai.webp`,
     alt: `Proident pariatur est.`,
+    destination: `mumbai-kochi`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
+    title: `Get a sensation of unadulterated ecstasy.`,
+    image: `/images/night.webp`,
     alt: `Proident pariatur est.`,
+    destination: `mumbai-kochi-lakshadweep-mumbai`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
+    title: `We've got all the modern conveniences you need for a wonderfully unforgettable visit.`,
+    image: `/images/beach1.webp`,
     alt: `Proident pariatur est.`,
+    destination: `mumbai-lakshadweep`,
+  },
+  {
+    title: `Premium cruise liner that greets you to have an experience truly made out of bliss.`,
+    image: `/images/cruise1.webp`,
+    alt: `Proident pariatur est.`,
+    destination: `CHENNAI-PUDUCHERRY`,
   },
 ];
 
@@ -78,7 +89,9 @@ const CasesSection = () => (
         <ParticleBg />
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
-        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>What will you get?</h1>
+        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>
+          Check out our dream destinations
+        </h1>
         <p className={tw(`text-white text-gray-400 text-center text-xl mt-12`)}>
           Don’t just take our word for it — see what we have provided and will provide
         </p>
@@ -102,7 +115,7 @@ const CasesSection = () => (
                   />
                 </div>
                 <div className={tw(`p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative`)}>
-                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1`)}>Case study</p>
+                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1`)}>{article.destination}</p>
                   <p className={tw(`text-gray-500 text-center pb-1 text-sm`)}>{article.title}</p>
                 </div>
               </div>
@@ -110,10 +123,10 @@ const CasesSection = () => (
             <span
               className={tw(
                 `-mt-8 pb-12 lg:mt-4 flex items-center text-xl
-                text-indigo-400 cursor-pointer z-30 hover:text-indigo-600`,
+                text-indigo-400 cursor-pointer z-30 hover:text-brand-primary`,
               )}
             >
-              See all case studies
+              See all destinations
               <Arrow className={tw(`h-6 w-6 fill-current ml-2`)} />
             </span>
           </div>
