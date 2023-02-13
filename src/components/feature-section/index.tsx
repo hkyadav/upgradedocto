@@ -70,7 +70,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl text-brand-primary`)}>Kids Sail Free*</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              When travelling with Cordelia Cruises, kids under the age of 12 get to sail for free.
+              When travelling with Cordelia, kids under the age of 12 get to sail for free.
             </p>
           </div>
         </div>

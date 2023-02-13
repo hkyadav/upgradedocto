@@ -12,7 +12,7 @@ const listItems = [
   },
   {
     title: `Destinations`,
-    description: `A cruise vacation with Cordelia Cruises takes you to some of the most gorgeous Indian and international destinations.`,
+    description: `A cruise vacation with Cordelia Cruses takes you to some of the most gorgeous Indian and international destinations.`,
   },
 ];
 

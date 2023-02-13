@@ -117,20 +117,14 @@ const Navigation = () => {
   return (
     <nav className={tw(`bg-white`)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
-        <div className={tw(`flex items-center justify-between h-24`)}>
+        <div className={tw(`flex items-center justify-between h-24 `)}>
           <div className={tw(`flex items-center`)}>
-            <div className={tw(`flex-shrink-0`)}>
-              <img
-                className={tw(`h-12 w-12`)}
-                src="logo.jpg"
-                alt="logo"
-                width={48}
-                height={48}
-                style={{ display: `inline` }}
-              />
-              <p className={tw(`text-1sxl text-brand-primary`)} style={{ display: `inline` }}>
-                ordelia Cruises
-              </p>
+            <div className={tw(`flex-shrink-0 inline`)}>
+              <img className={tw(`h-16 w-16 inline-table`)} src="logo.svg" alt="logo" width={48} height={48} />
+              <div className={tw(`inline-table`)}>
+                <p className={tw(`text-2xl text-brand-primary px-2`)}>Cordelia</p>
+                <p className={tw(`text-xs text-brand-primary px-3`)}>Voyage of Seas</p>
+              </div>
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
