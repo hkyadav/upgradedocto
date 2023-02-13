@@ -122,8 +122,8 @@ const Navigation = () => {
             <div className={tw(`flex-shrink-0 inline`)}>
               <img className={tw(`h-16 w-16 inline-table`)} src="logo.svg" alt="logo" width={48} height={48} />
               <div className={tw(`inline-table`)}>
-                <p className={tw(`text-2xl text-brand-primary px-2`)}>Cordelia</p>
-                <p className={tw(`text-xs text-brand-primary px-3`)}>Voyage of Seas</p>
+                <p className={tw(`text-2xl text-fuchsia px-2`)}>Cordelia</p>
+                <p className={tw(`text-xs text-fuchsia px-3`)}>Voyage of Seas</p>
               </div>
             </div>
             <div className={tw(`hidden md:block`)}>

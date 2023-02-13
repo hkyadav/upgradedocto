@@ -123,7 +123,7 @@ const CasesSection = () => (
             <span
               className={tw(
                 `-mt-8 pb-12 lg:mt-4 flex items-center text-xl
-                text-indigo-400 cursor-pointer z-30 hover:text-brand-primary`,
+                text-indigo-400 cursor-pointer z-30 hover:text-fuchsia`,
               )}
             >
               See all destinations

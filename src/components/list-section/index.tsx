@@ -20,9 +20,7 @@ const ListSection = () => (
   <section className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <h2 className={tw(`text-base text-brand-primary font-semibold tracking-wide uppercase`)}>
-          Luxury Sea Vacation
-        </h2>
+        <h2 className={tw(`text-base text-fuchsia font-semibold tracking-wide uppercase`)}>Luxury Sea Vacation</h2>
         <p className={tw(`mt-2 pb-4 text-4xl lg:text-6xl font-bold tracking-tight text-gray-900`)}>
           Best Sea Trans Luxury Vacation Service
         </p>
@@ -31,12 +29,12 @@ const ListSection = () => (
         <div className={tw(`w-full lg:w-1/2 px-8`)}>
           <ul className={tw(`space-y-12`)}>
             {listItems.map((item, index) => (
-              <li className={tw(`flex -mx-4 text-brand-primary`)} key={item.title}>
+              <li className={tw(`flex -mx-4 text-fuchsia`)} key={item.title}>
                 <div className={tw(`px-4`)}>
                   <span
                     className={tw(`flex w-16 h-16 mx-auto items-center
                       justify-center text-2xl font-bold rounded-full
-                      bg-blue-50 text-brand-primary`)}
+                      bg-blue-50 text-fuchsia`)}
                   >
                     {index + 1}
                   </span>

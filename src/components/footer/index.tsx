@@ -20,8 +20,8 @@ const Footer = () => (
     <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
       <div className={tw(`mb-14 flex items-center w-full inline`)}>
         <img className={tw(`h-24 w-24 mr-4 inline`)} src="logo.svg" alt="logo" width={60} height={60} />
-        <p className={tw(`text-4xl text-brand-primary inline`)}>Cordelia</p>
-        <p className={tw(`text-xl text-brand-primary px-28 -mt-10`)}>Voyage of Seas</p>
+        <p className={tw(`text-4xl text-fuchsia inline`)}>Cordelia</p>
+        <p className={tw(`text-xl text-fuchsia px-28 -mt-10`)}>Voyage of Seas</p>
       </div>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>

@@ -7,4 +7,8 @@ module.exports = {
 
     return config;
   },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true
+  }
 };
